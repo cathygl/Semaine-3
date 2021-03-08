@@ -1,0 +1,121 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+#bannière{
+    background: url(photos/imagehaut.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#bannière #Titre_bannière{
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%; 
+}
+
+#bannière #Titre_bannière a{
+    background-color: white;
+    color: black;
+    margin: auto;
+    border-radius: 50px;
+    text-decoration: none;
+    width: 1000px;
+    text-align: center;
+}
+
+#temps{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+}
+
+#bloc_page{
+    width: 1080px;
+    margin: auto;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+nav ul li{
+    padding-top: 15px;
+}
+
+ul li{
+    padding-right: 10px;
+    list-style-type: none;
+    height: 35px;
+}
+
+h1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#café{
+    text-align: center;
+    font-size: 0.8em;
+    width: 400px;
+}
+
+#café img{
+    width: 80px;
+}
+
+#horloge{
+    text-align: center;
+    font-size: 0.8em;
+    width: 400px;
+}
+
+#horloge img{
+    width: 80px;
+}
+
+#deuxième{
+    background: url(photos/imagebas.jpeg);
+    background-size: cover;
+    height: 600px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul{
+    color: white;
+}
+
+.accueil{
+    background-color: grey;
+}
+

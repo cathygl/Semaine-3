@@ -1,0 +1,107 @@
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-decoration: none;
+}
+
+.accueil{
+    background-color: grey;
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: right;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+img{
+    background-position: center;
+    width: 1334px;
+    height: 600px;
+    position: relative;
+}
+
+.container{
+    display: inline-block;
+    position: relative;
+}
+
+.container .text{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%; 
+}
+
+h2{
+    font-size: 2em;
+}
+
+.text1 p{
+    font-size: 1em;
+}
+
+#gauche{
+    width: 60%;
+    display: inline-block;
+}
+
+#droite{
+    position: relative;
+    left: 60%;
+    width: 60%;
+    display: inline-block;
+}
+
+h3{
+    text-align: center;
+}
+
+.tasse{
+    width: 80px;
+    height: 80px;
+}
+
+.horloge{
+    width: 80px;
+    height: 80px;
+}
+
+.tasse, .horloge{
+    position: relative;
+}
+
+a{
+    font-style: bold;
+    font-size: 1.5em;
+    padding-top: 23px;
+}
+
+.bouton{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+}

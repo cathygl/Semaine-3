@@ -1,0 +1,28 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+}
+
+div:hover{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    border-radius: 100px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.cadre img{
+    position: absolute;
+    right: -100%;
+    transition: all .0.5s;
+}
+
+.cadre:hover img{
+    left: 0;
+}
